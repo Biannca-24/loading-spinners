@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f7f7f5">
+    <title>Loading Spinners personalizados</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <header class="page-header">
+            <h1>Loading Spinners personalizados</h1>
+            <p class="subtitle">Ajuste cor, tamanho e velocidade e copie o CSS do spinner que preferir.</p>
+        </header>
+
+        <section class="controls" aria-label="Personalizar spinners">
+            <label>Cor <input type="color" id="c" value="#6366f1"></label>
+            <label>Tamanho <input type="range" id="s" min="24" max="96" value="48"></label>
+            <label>Velocidade <input type="range" id="d" min="3" max="30" value="10"></label>
+        </section>
+
+        <section class="spinner-grid" id="grid" aria-label="Galeria de spinners"></section>
+    </main>
+</body>
+</html>
